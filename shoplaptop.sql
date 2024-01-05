@@ -57,7 +57,7 @@ DROP TABLE IF EXISTS `chi_tiet_don_hang`;
 CREATE TABLE `chi_tiet_don_hang` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `don_gia` bigint(20) NOT NULL,
-  `so_luong` int(11) NOT NULL,
+  `so_luong` int(11) NULL,
   `ma_don_hang` bigint(20) DEFAULT NULL,
   `ma_san_pham` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
